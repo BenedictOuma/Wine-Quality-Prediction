@@ -116,8 +116,8 @@ st.write(f'Predicted Wine Quality: {np.argmax(prediction) + 1}')
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BenedictOuma/Wine-Quality-Prediction
-   cd wine-quality-prediction
+   git clone https://github.com/BenedictOuma/Wine-Quality-Prediction.git
+   cd wine_ANN
    ```
 2. Install dependencies:
 
