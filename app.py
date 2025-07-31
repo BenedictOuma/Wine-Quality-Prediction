@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 # Load the pre-trained model and scaler
-model = load_model('wine_model.keras')
+model = load_model('wine_model.keras', compile=False)
 scaler = joblib.load('scaler.pkl')
 
 # App title
